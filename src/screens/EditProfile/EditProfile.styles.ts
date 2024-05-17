@@ -1,0 +1,118 @@
+import {StyleSheet} from 'react-native';
+import {Colors} from '../../shared/Colors';
+
+export const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: Colors.BACKGROUND,
+  },
+  innerContainer: {
+    paddingHorizontal: 30,
+  },
+  container: {
+    position: 'relative',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: Colors.BACKGROUND,
+    marginBottom: 40,
+  },
+  backButton: {
+    position: 'absolute',
+    left: -10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  profileWrapper: {
+    width: 100,
+    height: 100,
+    borderRadius: 100,
+    backgroundColor: Colors.SECONDARY,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 30,
+  },
+  profileImage: {
+    width: 100,
+    height: 100,
+    borderRadius: 100,
+  },
+  iconButton: {
+    position: 'absolute',
+    backgroundColor: Colors.BACKGROUND,
+    right: -2,
+    bottom: -2,
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    borderWidth: 1,
+    borderColor: Colors.SECONDARY,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: '500',
+    color: Colors.PRIMARY,
+    fontFamily: 'OatmealPro-Medium',
+  },
+  centered: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  fieldMargin: {
+    marginBottom: 30,
+  },
+  heading: {
+    fontSize: 16,
+    fontWeight: '500',
+    color: Colors.PRIMARY,
+    fontFamily: 'OatmealPro-Medium',
+    marginBottom: 10,
+  },
+  input: {
+    height: 52,
+    padding: 16,
+    borderRadius: 8,
+    backgroundColor: Colors.SECONDARY,
+    width: '100%',
+  },
+  inputBio: {
+    padding: 16,
+    height: 72,
+    borderRadius: 8,
+    backgroundColor: Colors.SECONDARY,
+    marginBottom: 10,
+    width: '100%',
+  },
+  counter: {
+    alignSelf: 'flex-end',
+    marginRight: 10,
+    marginBottom: 10,
+    color: Colors.WARNING,
+    fontSize: 12,
+    fontFamily: 'OatmealPro-Regular',
+  },
+  column: {
+    flexDirection: 'column',
+    width: '100%',
+  },
+  signOutButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    backgroundColor: Colors.SECONDARY,
+    borderRadius: 100,
+    position: 'absolute',
+    bottom: 40,
+    left: 30,
+    right: 30,
+  },
+  signOutText: {
+    fontSize: 16,
+    fontWeight: '500',
+    color: Colors.ERROR,
+    fontFamily: 'OatmealPro-Medium',
+  },
+});
